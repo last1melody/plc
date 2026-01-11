@@ -3,9 +3,6 @@
     Chacha20 stream encryption - Lua 5.1 / LuaJIT version
 ]]
 
-local bit = require("bit")
-local ffi = require("ffi")
-
 local band, bor, bxor = bit.band, bit.bor, bit.bxor
 local lshift, rshift, rol = bit.lshift, bit.rshift, bit.rol
 local app, concat = table.insert, table.concat
